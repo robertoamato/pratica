@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp1Component implements OnInit {
 
-  public titulo:string= "ola mundo";
+  public titulo:string= "Interpolacao";
   public nome:string= "Roberto";
   public idade:number=39;
+  public maisum:number=1;
   
   constructor() { }
 
