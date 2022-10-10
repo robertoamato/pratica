@@ -22,3 +22,81 @@
 <p>{{idade + maisum}}</p>
 
 </div>
+
+<hr>
+
+<h1>propety binding</h1> 
+<img [src]="imagem"><br>
+<button [disabled]="desabilitar">aperte</button>
+<input type="email" [maxLength]="teste1" [placeholder]="teste2" >
+
+<hr>
+
+<h2>Event binding</h2><br><br>
+
+<button (click)="ALERTA()">aperte</button>
+<br>
+
+<button (click)="alerta2()">aperte 2</button>
+
+<hr>
+
+<h1>event binding</h1>
+
+
+<div (mousemove)="mouseteste($event)"  style="background-color:red ; width: 300px; height: 300px;" ></div>
+{{position.x}} = {{position.y}};
+
+<hr>
+<hr>
+
+<h4>two way binding</h4>
+
+<input [(ngModel)]="nome">
+{{nome}}
+
+<input [(ngModel)]="idade">
+{{idade}}
+
+<hr>
+
+<hr>
+<hr>
+<hr>
+
+<p>revisao</p>
+
+<p>interpolacao</p>
+
+qual o seu nome e sobrenome por favor?<br>
+{{nomeum}} {{nomedois}} <br>
+
+quanto que é {{idadedois + 2 }} ?<br>
+
+voce tem 40 anos? <br>
+
+{{ idadedois < 38  }}
+
+quanto é 
+ <hr>
+ <hr>
+
+ <h3><img [src]="imagemdois" [alt]="imagemdois"></h3>
+
+ <button [disabled]="desabilitarum">aperte</button>
+
+ <hr>
+ <hr>
+ <hr>
+
+ <button (click)="alerta1()"> aperte</button><br><br>
+
+ <button (click)="alerta3()"> aperte</button>
+
+ <hr><hr>
+
+ <div style="background-color:blue; width: 300px; height: 300px; " (mousemove)="mouseteste1($event)"></div>
+ {{position1.x}} - {{position1.y}};
+
+
+
